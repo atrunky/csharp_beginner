@@ -5,8 +5,10 @@ namespace HelloWorld{
     class Program {
 
         static void Main(){
-            string Name="Pepito";
-            Console.WriteLine($"Hello world {Name}");
+            var Name="Pepito";
+            Name="Pepito1";
+            const string Name2="Pepito2";
+            Console.WriteLine($"Hello world {Name} o {Name2} ");
             Console.WriteLine();
         }
     }
